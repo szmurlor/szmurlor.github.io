@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PGUI 2018Z</title>
+    <meta charset="utf-8">
+    <!-- <link rel="stylesheet" href="../../Includes/remark-rs.css" type="text/css" /> -->
+    <link rel="stylesheet" href="remark-rs.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">    
+  </head>
+  <body>
+  <!-- ** -->
+    <textarea id="source"></textarea>
+
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured" type="text/javascript"></script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
+    <script>
+
+    remark.create({
+      sourceUrl: 'L05_state_patterns_in_react.md',
+      countIncrementalSlides: false,
+      highlightLanguage: 'javascript',
+      highlightStyle: 'github',
+      highlightLines: true
+    });
+
+    // Setup MathJax
+     MathJax.Hub.Config({
+         tex2jax: {
+         skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+         }
+     });
+     MathJax.Hub.Queue(function() {
+         $(MathJax.Hub.getAllJax()).map(function(index, elem) {
+             return(elem.SourceElement());
+         }).parent().addClass('has-jax');
+     });
+
+     MathJax.Hub.Configured();
+
+    </script>
+    <script src="decoratelb.js"></script>
+  </body>
+</html>
