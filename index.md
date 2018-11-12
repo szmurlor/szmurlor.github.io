@@ -1,7 +1,7 @@
-** Witaj w świecie
+## Materiały do wykładu Projektowanie Graficznych Interfejsów Użytkownika
 
-Innym niż Jekyl
 
-Projektowanie Graficznych Interfejsów Użytkownika
+[L04 Wprowadzenie do Reacta](pgui/L04_react.html)
+[L05 Wzorce projektowe synchronizacji stanów - część wykładowa](pgui/L05_state_patterns.html)
+[L05 Wzorce projektowe synchronizacji stanów - część 'Hands on in React'](pgui/L05_state_patterns_in_react.html)
 
-[Projektowanie graficznych Interfejsów L04](pgui/L04_react.html)
